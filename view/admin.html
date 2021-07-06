@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Adminstracion</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/headerNew.css" rel="stylesheet">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/checkSessionAdmin.js"></script>
+    <script src="js/checkSession.js"></script>
+    <script src="js/closeSession.js"></script>
+    <script src="js/checkArea.js"></script>
+</head>
+
+<body>
+    <header class="menuNavigation">
+
+        <nav class="navbar navbar-expand-lg navbar-dark xd">
+            <div class="logo">
+                <a href="index.html">Capacitate!!!!</a>
+            </div>
+            <a class="navbar-brand " href="#"></a>
+            <button id="xd" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Agregar
+                  </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Videos</a>
+                            <a class="dropdown-item" href="#">Usuarios</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Ver
+                  </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Clientes</a>
+                            <a class="dropdown-item" href="#">Preguntas de Seguridad</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"></a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+            </div>
+            <a href="login.html" class="get-started-btn scrollto" id="open">Iniciar Sesion</a>
+            <button class="get-started-btn scrollto" id="closeLogeo">Cerrar Sesion</button>
+            <a href="admin.html" class="get-started-btn scrollto" id="optionAdmin">Administrar</a>
+        </nav>
+    </header>
+    <section>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Iniciales</li>
+        </ol>
+    </section>
+    <section>
+        <h3 class="card-group-title">Introduccion</h3>
+        <div class="card-deck">
+            <div class="card">
+                <iframe class="card-img-top" height="600px" src="https://www.youtube.com/embed/WN3KMTSzv-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="card-body">
+                    <h5 class="card-title">Introduccion a la capacitacion</h5>
+                    <p class="card-text">Descripcion: veremos la importancia de la capacitacion para encontrar nuevas oprtunidades.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h3 class="adver"></h3>
+    </section>
+    <section>
+        <h3 class="card-group-title conta"> Contabilidad</h3>
+        <div class="card-deck">
+            <div class="card conta">
+                <iframe class="card-img-top" height="300px" src="https://www.youtube.com/embed/qs72Xk9HxT4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="card-body">
+                    <h5 class="card-title">Por que es tan importante la contabilidad</h5>
+                    <p class="card-text">Descripcion: veremos por que es tan importante la contabilidad en la vida diaria.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card conta">
+                <iframe class="card-img-top" height="300px" src="https://www.youtube.com/embed/0qMcX5ETnac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="card-body">
+                    <h5 class="card-title">Historia de la contabilidad</h5>
+                    <p class="card-text">Descripcion: veremos una pequeña historia de la contabilidad.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card conta">
+                <iframe class="card-img-top" height="300px" src="https://www.youtube.com/embed/ugxCocs75zE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="card-body">
+                    <h5 class="card-title">Que es la contabilidad</h5>
+                    <p class="card-text">Descripcion: veremos que es la contabilidad.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h3 class="card-group-title administra"> Adminstracion</h3>
+        <div class="card-deck">
+            <div class="card administra">
+                <iframe class="card-img-top" height="300px" src="https://www.youtube.com/embed/-k-ivFMrh_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                <div class="card-body">
+                    <h5 class="card-title">que es la administracion</h5>
+                    <p class="card-text">Descripcion: veremos que es la administracion.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card administra">
+                <iframe class="card-img-top" height="300px" src="https://www.youtube.com/embed/Mk4TsGcUVGI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="card-body">
+                    <h5 class="card-title">Que es la Adminstracion</h5>
+                    <p class="card-text">Descripcion: veremos que es la administracion.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card administra">
+                <iframe class="card-img-top" height="300px" src="https://www.youtube.com/embed/GOwswgQyQGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="card-body">
+                    <h5 class="card-title">importancia de la Adminstracion</h5>
+                    <p class="card-text">Descripcion: veremos la importancia de la administracion.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h3 class="card-group-title finan"> Finanzas</h3>
+        <div class="card-deck">
+            <div class="card finan">
+                <iframe class="card-img-top" height="300px" src="https://www.youtube.com/embed/Hy8eTtxil3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="card-body">
+                    <h5 class="card-title">Control de finanzas</h5>
+                    <p class="card-text">Descripcion: veremos el control de las finanzas.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card finan">
+                <iframe class="card-img-top" height="300px" src="https://www.youtube.com/embed/2CJMyFSy6L0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="card-body">
+                    <h5 class="card-title">Educacion Financiera</h5>
+                    <p class="card-text">Descripcion: veremos sobre la educacion financiera.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card finan">
+                <iframe class="card-img-top" height="300px" src="https://www.youtube.com/embed/h2JGyM9_a0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="card-body">
+                    <h5 class="card-title">Finanzas Personales</h5>
+                    <p class="card-text">Descripcion: veremos sobre finanzas Personales.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h3 class="card-group-title carpin"> Carpinteria</h3>
+        <div class="card-deck">
+            <div class="card carpin">
+                <iframe class="card-img-top" height="300px" src="https://www.youtube.com/embed/8Q_4oA25dDU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="card-body">
+                    <h5 class="card-title">Introduccion a la carpinteria</h5>
+                    <p class="card-text">Descripcion: veremos la introduccion a la carpinteria.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card carpin">
+                <iframe class="card-img-top" height="300px" src="https://www.youtube.com/embed/raZrBiaEeJU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="card-body">
+                    <h5 class="card-title">Tablero multiusos</h5>
+                    <p class="card-text">Descripcion: veremos como crear un mueble basico de madera.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card carpin">
+                <iframe class="card-img-top" height="300px" src="https://www.youtube.com/embed/Sue0Sh5HoKE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="card-body">
+                    <h5 class="card-title">Herramientas de la carpinteria</h5>
+                    <p class="card-text">Descripcion: veremos que Herramientas se usan en la Carpinteria.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<!-- Footer -->
+<footer class="page-footer font-small mdb-color pt-4">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+        <!-- Footer links -->
+        <div class="row text-center text-md-left mt-3 pb-3">
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Informacion de la empresa</h6>
+                <p>La agencia de viajes Huejutla ofrece una de las mejores experiancias a la hora de viajar ya que ofrece varios paquetes de destino como lo son traslados a toda la republica mexicana y a centros turisticos de todo el pais obteniendo las
+                    mejores experiencias de nuestros clientes.</p>
+            </div>
+            <!-- Grid column -->
+
+            <hr class="w-100 clearfix d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Desarrolladores</h6>
+                <p>Oswaldo Ivan Hernandez Hernandez</p>
+            </div>
+            <!-- Grid column -->
+
+            <hr class="w-100 clearfix d-md-none">
+
+            <!-- Grid column -->
+            <hr class="w-100 clearfix d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Contacto</h6>
+                <p>
+                    <i class="fas fa-home mr-3"></i>Huejutla de Reyes, Hidalgo</p>
+                <p>
+                    <i class="fas fa-envelope mr-3"></i>AgenciaDeViajesHuejutla@gmail.com</p>
+                <p>
+                    <i class="fas fa-phone mr-3"></i>771-3411962</p>
+                <p>
+                    <i class="fas fa-print mr-3"></i>771-3415929</p>
+            </div>
+            <!-- Grid column -->
+
+        </div>
+        <!-- Footer links -->
+
+        <hr>
+
+        <!-- Grid row -->
+        <div class="row d-flex align-items-center">
+
+            <!-- Grid column -->
+            <div class="col-md-7 col-lg-8">
+
+                <!--Copyright-->
+                <p class="text-center text-md-left">© 2021 Copyright:
+                    <strong>Turing Developer</strong>
+                </p>
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-5 col-lg-4 ml-lg-0">
+
+                <!-- Social buttons -->
+                <div class="text-center text-md-right">
+                    <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                <i class="fab fa-google-plus-g"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+</footer>
+
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registrar</title>
+    <link href="../CSS/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/headerNew.css" rel="stylesheet">
+    <script src="../model/jquery-3.5.1.js"></script>
+    <script src="../model/bootstrap.min.js"></script>
+    <script src="../model/getQuestion.js"></script>
+    <script src="../model/addUsers.js"></script>
+</head>
+
+<body>
+    <div class="form-container">
+        <form class="form">
+            <h1 class="form-title">Resgistrar</h1>
+            <div class="form-group">
+                <input type="text" id="name" class="form-input" placeholder="Ingrese su Nombre" required>
+            </div>
+            <div class="form-group">
+                <input type="text" id="lnf" class="form-input" placeholder="Ingrese su Apellido Paterno" required>
+            </div>
+            <div class="form-group">
+                <select class="form-control" id="lnm">
+                    <option value="labelGender">Seleccione el area..</option>
+                        <option value="Contabilidad">Contabilidad</option>
+                        <option value="Adminstracion">Adminstracion</option>
+                        <option value="Finanzas">Finanzas</option>
+                        <option value="Carpinteria">Carpinteria</option>
+                    </select>
+            </div>
+            <div class="form-group">
+                <select class="form-control" id="gender">
+                    <option value="labelGender">Seleccione su Genero..</option>
+                        <option value="Hombre">Hombre</option>
+                        <option value="Mujer">Mujer</option>
+                    </select>
+            </div>
+            <div class="form-group">
+                <input type="text" id="phone" class="form-input" placeholder="Ingrese su Numero Telefonico" required>
+            </div>
+            <div class="form-group">
+                <input type="email" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" id="email" class="form-input" placeholder="Ingrese su Correo Electronico" required>
+            </div>
+            <div class="form-group">
+                <input type="password" id="pass" class="form-input" placeholder="Ingrese su Contraseña" required>
+            </div>
+            <div class="form-group">
+                <input type="password" id="pass2" class="form-input" placeholder="Confirme su contraseña" required>
+            </div>
+            <div class="form-group">
+                <select class="form-control" id="question">
+                    
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="text" id="resp" class="form-input" placeholder="Ingrese la Respuesta" required>
+            </div>
+            <small class="form-small">
+                <input
+                    type="checkbox"
+                    class="small-check"
+                    id="terminos"
+                />
+                Estoy de acuerdo con los 
+                <a href="#" class="small-link">Términos de servicio</a> & 
+                <a href="#" class="small-link">Politica de privacidad</a>
+            </small>
+            <input type="button" class="form-submit" value="Añadir">
+            <div class="form-group" id="warning">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Agregar Producto</title>
+    <link href="CSS/bootstrap.min.css" rel="stylesheet">
+    <link href="CSS/headerNew.css" rel="stylesheet">
+    <script src="JS/jquery-3.5.1.js"></script>
+    <script src="JS/login.js"></script>
+    <script src="JS/menuNavigation.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/product.js"></script>
+</head>
+
+<body>
+    <header class="menuNavigation">
+
+        <nav class="navbar navbar-expand-lg navbar-dark xd">
+            <div class="logo">
+
+            </div>
+            <a class="navbar-brand " href="#"></a>
+            <button id="xd" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Producto</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Sucursales
+                  </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Promociones</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Acerca de
+                  </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+            <a href="login.html" class="get-started-btn scrollto">Iniciar Sesion</a>
+        </nav>
+    </header>
+    <section>
+        <div class="form-container">
+            <form class="form">
+                <h1 class="form-title">Productos</h1>
+                <div class="form-group">
+                    <input type="text" id="user" class="form-input" placeholder="Ingrese Nombre de la Pizza" required>
+                </div>
+                <div class="form-group">
+                    <select class="form-control">
+                        <option>Pequeño</option>
+                        <option>Mediano</option>
+                        <option>Grande</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <select class="form-control">
+                        <option>Jamon, Piña y Queso.</option>
+                        <option>Piña,Champiñon,Aceituna,Pimiento Verde,Cebolla,Jitomate,Elote y Queso.</option>
+                        <option>Peperoni, Campiñon y Queso.</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="user" class="form-input" placeholder="Ingresa la categoria" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="user" class="form-input" placeholder="Ingresa la descripcion" required>
+                </div>
+                <div class="form-group">
+                    <input type="file" id="user" class="form-input" placeholder="Ingresa la descripcion" required>
+                </div>
+                <input type="button" class="form-submit" value="Iniciar">
+            </form>
+        </div>
+    </section>
+    <section>
+        <div class="table-responsive">
+            <table class="table" id="fill">
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Pizza</th>
+                        <th scope="col">Tamaño</th>
+                        <th scope="col">Ingredientes</th>
+                        <th scope="col">Categoria</th>
+                        <th scope="col">Descripcion</th>
+                        <th scope="col">Imagen</th>
+                        <th scope="col">Opciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </section>
+</body>
+
+</html>
